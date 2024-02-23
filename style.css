@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.container{
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.header{
+    background-color: lightpink;
+    border-radius: 20px 20px 0px 0px;
+    padding: 30px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.icon{
+    font-size: 55px;
+}
+.playerContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+#player .icon{
+color: rgb(105, 105, 235);
+cursor: pointer;
+}
+#computer .icon{
+color: rgb(241, 101, 101);
+}
+.resetContainer{
+text-align: center;
+}
+.reseticon{
+    font-size: 40px;
+    cursor: pointer;
+}
+.resultContainer{
+text-align: center;
+}
+.resultText{
+    font-size: 40px;
+    margin: 20px;
+}
+.selected{
+    color: black !important;
+}
